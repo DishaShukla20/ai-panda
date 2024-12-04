@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///C:/Users/ZAINAB%20KHAN/OneDrive/Documents/!DOCTYPE6.HTML -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>JavaScript For Loop</title>
+  </head>
+  <body>
+    <h2>JavaScript For Loop</h2>
+    <p id="demo">Discrete Structures &amp; Theory of Logic<br>Data Structure<br>Cyber Security<br>Computer Organization and Architecture<br>UHV<br></p>
+
+    <script>
+      const subjects = [
+        "Discrete Structures & Theory of Logic",
+        "Data Structure",
+        "Cyber Security",
+        "Computer Organization and Architecture",
+        "UHV"
+      ];
+      let text = "";
+      for (let i = 0; i < subjects.length; i++) {
+        text += subjects[i] + "<br>";
+      }
+      document.getElementById("demo").innerHTML = text;
+    </script>
+ &nbsp;
+</body></html>
